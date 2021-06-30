@@ -1,5 +1,5 @@
 # Hexapawn
- My goal was to create Hexapawn and make AI as opponent of the user, which getting smarter after all lose game. I reach my goal, and after playing 20 minutes with my algorithm,
+ My goal was to create Hexapawn and make AI as opponent of the user, which getting smarter after all lost game. I reach my goal, and after playing 20 minutes with my algorithm,
 AI became invincible. Seriously, it becomes mathematically impossible to defeat.
 
 # Description
