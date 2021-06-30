@@ -4,6 +4,7 @@ AI became invincible. Seriously, it becomes mathematically impossible to defeat.
 
 # Description
  Hexapawn, is a simple game, very simple. At first, you have 3x3 board, at bottom your three pawn is placed in row and your opponent's three pawn at the top.
+ 
  ![download](https://user-images.githubusercontent.com/76595828/123946903-c3f4bd80-d9b0-11eb-8ae1-a96cbeee1672.png)
   
  Pawns can be moved forward, if place is not occupied and they can move diagonally, only if they take opponent's pawn.
