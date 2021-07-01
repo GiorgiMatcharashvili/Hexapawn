@@ -32,7 +32,7 @@ Text at the top of the board, shows which's turn to play(Blue or Red) and if som
 
 After end of the game, program shuts down.
 
-# How AI works
+# How does AI works
 If we consider what player starts first, one of the blue pawn is already moved forward. AI takes all occupied/unoccupied places, generates all possible moves, what
 AI can do, and makes dicrionary out of this information, it gives ID to this dectionary, so it can find it easly in the future. AI puts all the information into the moves.json
 
