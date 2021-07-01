@@ -31,6 +31,18 @@ After You make move, AI choose it's moves and you can see how it's selects red f
 Text at the top of the board, shows which's turn to play(Blue or Red) and if someone wins game, it shows you the winner.
 
 After end of the game, program shuts down.
+
+# How AI works
+If we consider what player starts first, one of the blue pawn is already moved forward. AI takes all occupied/unoccupied places, generates all possible moves, what
+AI can do, and makes dicrionary out of this information, it gives ID to this dectionary, so it can find it easly in the future. it puts all the information into the moves.json
+
+After that it takes all the possible moves and plays one of them randomly. If AI loses after this move, that means it made bad move and it deletes from moves.json.
+If the move was successful and AI wins, then it puts another move into the possible move, so it can be easly choosen in the future, when AI randomly choose from the list.
+
+With this way, AI gets rid of bad moves and saves, even adds good moves, so in the future, it makes only good moves.
+
+At the start, AI is very simple to defeat, it does not know anything, but then you win couple of times, it gets smarter and never loses same way. For my calculation,
+you can win first 10 or 15 games, then AI gets smarter and you can't win that easy.
  
 # Credits
 @inc. all by myself
